@@ -1,62 +1,78 @@
-\# Grain Classification using Deep Learning (MobileNetV2)
+# Grain Classification using Deep Learning (MobileNetV2)
 
+## Overview
 
+This project classifies five Indian grain varieties using MobileNetV2 Transfer Learning.
 
-\## Overview
+A key contribution of this project is the creation of a self-collected and curated Indian grain image dataset, which was organized, labeled, and prepared for deep learning-based image classification.
 
-This project classifies 5 types of grains using deep learning:
+## Grain Classes
 
-\- Black gram
+- Black Gram
+- Chenna
+- Dhal
+- Green Gram
+- Wheat
 
-\- Chenna
+## Dataset
 
-\- Dhal
+The dataset was collected, organized, and curated by me for this project.
 
-\- Green gram
+It contains images divided into:
 
-\- Wheat
+- Train
+- Validation
+- Test
 
+**Kaggle Dataset**
 
+https://www.kaggle.com/datasets/keerthanasrinivasan5/grain-classification-dataset-5-classes
 
-\## Technologies Used
+## Technologies Used
 
-\- Python
+- Python
+- TensorFlow
+- Keras
+- MobileNetV2
+- Transfer Learning
 
-\- TensorFlow / Keras
+## Project Workflow
 
-\- MobileNetV2
+- Collected and curated the grain image dataset
+- Organized images into training, validation, and testing folders
+- Applied data augmentation
+- Used MobileNetV2 Transfer Learning
+- Trained the model for 15 epochs
+- Evaluated model performance
 
+## Features
 
+- Classifies five Indian grain varieties
+- Image prediction using a trained deep learning model
+- Supports TensorFlow/Keras inference
 
-\## Approach
+## Results
 
-\- Used transfer learning
+- Test Accuracy: ~87%
+- Successfully classified five grain categories
 
-\- Applied data augmentation
+## Repository Contents
 
-\- Trained model for 15 epochs
+- train_model.py
+- predict.py
+- README.md
 
-\- Achieved \~87% accuracy
+## Future Improvements
 
+- Increase dataset size
+- Improve classification accuracy
+- Deploy as a web application
 
+## Author
 
-\## Features
+**Keerthana Srinivasan**
 
-\- Classifies grain images
+GitHub: https://github.com/Keersrini05
 
-\- Supports prediction using trained model
-
-
-
-\## Result
-
-Achieved \~87% accuracy on test dataset
-
-
-
-\## Future Improvements
-
-\- Increase dataset size
-
-\- Deploy as web application
-
+Kaggle Dataset:
+https://www.kaggle.com/datasets/keerthanasrinivasan5/grain-classification-dataset-5-classes
