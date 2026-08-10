@@ -15,8 +15,7 @@ A key contribution of this project is the creation of a self-collected and curat
 - Wheat
 
 ## Dataset
-
-The dataset was collected, organized, and curated by me for this project.
+The dataset was collected, curated, labeled, and organized by me specifically for this project. Images were arranged into training, validation, and test folders to support deep learning model development.
 
 It contains images divided into:
 
